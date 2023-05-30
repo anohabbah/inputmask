@@ -13,10 +13,6 @@ onMounted(() => {
   const masker = new Inputmask(mask)
   masker.mask(input.value?.$refs.input)
 })
-
-const a1: boolean | null | undefined = undefined
-const a2: boolean | null | undefined = null
-const bool = a1 && a2
 </script>
 
 <template>
